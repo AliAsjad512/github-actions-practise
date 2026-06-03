@@ -1,6 +1,6 @@
 // __tests__/index.test.js
 
-const { add, subtract, multiply } = require('../src/index');
+const { add, subtract, multiply,divide } = require('../src/index');
 
 describe('Math functions', () => {
   test('add: 2 + 3 should equal 5', () => {
