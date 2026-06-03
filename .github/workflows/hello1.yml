@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run tests
-        run : npm test
+        run: npm test
   lint:
     runs-on: ubuntu-latest
     steps:
       - name: Run linter
-        run : npm run lint
+        run: npm run lint
