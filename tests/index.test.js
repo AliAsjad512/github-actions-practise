@@ -19,3 +19,5 @@ describe('Math functions', () => {
     expect(multiply(3, 4)).toBe(12);
   });
 });
+
+test('divide: 10 / 2 = 5', () => { expect(divide(10, 2)).toBe(5); });
