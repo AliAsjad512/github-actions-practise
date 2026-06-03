@@ -4,7 +4,7 @@ const { add, subtract, multiply } = require('../src/index');
 
 describe('Math functions', () => {
   test('add: 2 + 3 should equal 5', () => {
-    expect(add(1, 3)).toBe(5);
+    expect(add(2, 3)).toBe(5);
   });
 
   test('add: negative numbers', () => {
@@ -16,6 +16,6 @@ describe('Math functions', () => {
   });
 
   test('multiply: 3 * 4 should equal 12', () => {
-    expect(multiply(1, 4)).toBe(12);
+    expect(multiply(3, 4)).toBe(12);
   });
 });
